@@ -16,11 +16,12 @@
 		EB59313F2C6024E400EAC86B /* navTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59313E2C6024E400EAC86B /* navTests.swift */; };
 		EB5931492C6024E400EAC86B /* navUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5931482C6024E400EAC86B /* navUITests.swift */; };
 		EB59314B2C6024E400EAC86B /* navUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59314A2C6024E400EAC86B /* navUITestsLaunchTests.swift */; };
-		EB59315A2C602C0600EAC86B /* Fazla Riskli.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5931592C602C0600EAC86B /* Fazla Riskli.png */; };
-		EB59315E2C602CDE00EAC86B /* Riskli.png in Resources */ = {isa = PBXBuildFile; fileRef = EB59315D2C602CDE00EAC86B /* Riskli.png */; };
-		EB5931642C602D8100EAC86B /* Orta Riskli.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5931632C602D8100EAC86B /* Orta Riskli.png */; };
-		EB5931662C60300100EAC86B /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5931652C60300100EAC86B /* image.png */; };
-		EB59316C2C603F3B00EAC86B /* locationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB59316B2C603F3B00EAC86B /* locationIcon.png */; };
+		EB7292E22C917BF3005181AA /* Fazla Riskli.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7292E12C917BF3005181AA /* Fazla Riskli.png */; };
+		EB7292E82C917C24005181AA /* locationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7292E32C917C24005181AA /* locationIcon.png */; };
+		EB7292E92C917C24005181AA /* Riskli.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7292E42C917C24005181AA /* Riskli.png */; };
+		EB7292EA2C917C24005181AA /* Orta Riskli.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7292E52C917C24005181AA /* Orta Riskli.png */; };
+		EB7292EB2C917C24005181AA /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7292E62C917C24005181AA /* image.png */; };
+		EB7292EC2C917C24005181AA /* redIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7292E72C917C24005181AA /* redIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +55,12 @@
 		EB5931442C6024E400EAC86B /* navUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5931482C6024E400EAC86B /* navUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navUITests.swift; sourceTree = "<group>"; };
 		EB59314A2C6024E400EAC86B /* navUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		EB5931592C602C0600EAC86B /* Fazla Riskli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Fazla Riskli.png"; path = "../../Downloads/Fazla Riskli.png"; sourceTree = "<group>"; };
-		EB59315D2C602CDE00EAC86B /* Riskli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Riskli.png; path = ../../Downloads/Riskli.png; sourceTree = "<group>"; };
-		EB5931632C602D8100EAC86B /* Orta Riskli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Orta Riskli.png"; path = "../../Downloads/Orta Riskli.png"; sourceTree = "<group>"; };
-		EB5931652C60300100EAC86B /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = ../../Downloads/image.png; sourceTree = "<group>"; };
-		EB59316B2C603F3B00EAC86B /* locationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locationIcon.png; path = ../../Downloads/locationIcon.png; sourceTree = "<group>"; };
+		EB7292E12C917BF3005181AA /* Fazla Riskli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fazla Riskli.png"; sourceTree = "<group>"; };
+		EB7292E32C917C24005181AA /* locationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locationIcon.png; sourceTree = "<group>"; };
+		EB7292E42C917C24005181AA /* Riskli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Riskli.png; sourceTree = "<group>"; };
+		EB7292E52C917C24005181AA /* Orta Riskli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orta Riskli.png"; sourceTree = "<group>"; };
+		EB7292E62C917C24005181AA /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		EB7292E72C917C24005181AA /* redIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,11 +91,12 @@
 		EB59311B2C6024E300EAC86B = {
 			isa = PBXGroup;
 			children = (
-				EB5931592C602C0600EAC86B /* Fazla Riskli.png */,
-				EB5931652C60300100EAC86B /* image.png */,
-				EB59316B2C603F3B00EAC86B /* locationIcon.png */,
-				EB59315D2C602CDE00EAC86B /* Riskli.png */,
-				EB5931632C602D8100EAC86B /* Orta Riskli.png */,
+				EB7292E62C917C24005181AA /* image.png */,
+				EB7292E32C917C24005181AA /* locationIcon.png */,
+				EB7292E52C917C24005181AA /* Orta Riskli.png */,
+				EB7292E72C917C24005181AA /* redIcon.png */,
+				EB7292E42C917C24005181AA /* Riskli.png */,
+				EB7292E12C917BF3005181AA /* Fazla Riskli.png */,
 				EB5931262C6024E300EAC86B /* nav */,
 				EB59313D2C6024E400EAC86B /* navTests */,
 				EB5931472C6024E400EAC86B /* navUITests */,
@@ -246,14 +249,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB59316C2C603F3B00EAC86B /* locationIcon.png in Resources */,
-				EB59315A2C602C0600EAC86B /* Fazla Riskli.png in Resources */,
 				EB5931312C6024E400EAC86B /* Assets.xcassets in Resources */,
+				EB7292EA2C917C24005181AA /* Orta Riskli.png in Resources */,
 				EB5931342C6024E400EAC86B /* Base in Resources */,
-				EB5931662C60300100EAC86B /* image.png in Resources */,
-				EB59315E2C602CDE00EAC86B /* Riskli.png in Resources */,
-				EB5931642C602D8100EAC86B /* Orta Riskli.png in Resources */,
+				EB7292E82C917C24005181AA /* locationIcon.png in Resources */,
+				EB7292E22C917BF3005181AA /* Fazla Riskli.png in Resources */,
+				EB7292E92C917C24005181AA /* Riskli.png in Resources */,
 				EB59312F2C6024E300EAC86B /* Base in Resources */,
+				EB7292EB2C917C24005181AA /* image.png in Resources */,
+				EB7292EC2C917C24005181AA /* redIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

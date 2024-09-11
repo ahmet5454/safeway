@@ -10,7 +10,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
     var isTrackingUserLocation = false
     var regionIconImageView: UIImageView!
     
-    // Hedef konumlar ve renkler
+    // Hedef konumlar ve dereceler
    
            let targetLocations = [
                (location: CLLocation(latitude: 40.8927236, longitude: 31.1680019), color: UIColor.red, icon: "Fazla Riskli"),
@@ -210,7 +210,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         var isInAnyRegion = false
         for target in targetLocations {
             let distance = location.distance(from: target.location)
-            if distance < 250 { // 1000 metre içinde
+            if distance < 250 { // 250 metre içinde
                 if let iconImage = UIImage(named: target.icon) {
                     regionIconImageView.image = iconImage
                     isInAnyRegion = true
